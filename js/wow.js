@@ -1,33 +1,5 @@
 
-var web_icon = document.getElementById("web-icon");
-var win_icon = document.getElementById("win-icon");
-var win_dwn_btn = document.getElementById("win-dwn-btn");
-var web_dwn_btn = document.getElementById("web-dwn-btn");
-
-win_dwn_btn.addEventListener("mouseover", onmouseOver);
-win_dwn_btn.addEventListener("mouseout", onmouseOut);
-web_dwn_btn.addEventListener("mouseover", onmouseOver);
-web_dwn_btn.addEventListener("mouseout", onmouseOut);
-
-function onmouseOver() {
-  win_icon.style.color = "#000";
-  web_icon.style.color = "#000";
-}
-
-function onmouseOut() {
-  win_icon.style.color = "#fff";
-  web_icon.style.color = "#fff";
-}
-
-win_dwn_btn.onclick = function () {
-        location.href = "https://drive.google.com/uc?export=download&id=1Zw9-ac7YCgQItYGBEBrQYEbT11aARXLw";
-};
-
-web_dwn_btn.onclick = function () {
-        location.href = "https://drive.google.com/uc?export=download&id=1FMZgytfYGxZdOoAKUvPkfuY5J58yuKiQ";
-};
-
-  var soft = document.getElementById("hard");
+var soft = document.getElementById("hard");
   var hard = document.getElementById("soft");
   var ware = document.getElementById("ware");
 
