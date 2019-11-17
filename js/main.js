@@ -47,7 +47,7 @@
 		isOpen = false,
 		isFirefox = typeof InstallTrigger !== 'undefined',
 		// scale body when zooming into the items, if not Firefox (the performance in Firefox is not very good)
-		bodyScale = isFirefox ? false : 3;
+		bodyScale = isFirefox ? false : false;
 
 	// some helper functions:
 	function scrollX() { return window.pageXOffset || docElem.scrollLeft; }
